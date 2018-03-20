@@ -61,9 +61,9 @@
                      <td>
                          <nav>
                             <ul>
-                                <li><a href="http://localhost/codeigniter/index.php/ordered">Rezervuoti automobiliai</a></li>
-                                <li><a href="http://localhost/codeigniter/index.php/bookcar_controller/create_booking">Rezervuoti</a></li>
-                                <li><a href="http://localhost/codeigniter/index.php/reservation/create">Pridėti vartotoją</a></li>
+                                <li><a href="<?php $_SERVER['REQUEST_URI'] ?>/reservation-system-master/index.php/ordered">Rezervuoti automobiliai</a></li>
+                                <li><a href="<?php $_SERVER['REQUEST_URI'] ?>/reservation-system-master/index.php/bookcar_controller/create_booking">Rezervuoti</a></li>
+                                <li><a href="<?php $_SERVER['REQUEST_URI'] ?>/reservation-system-master/index.php/reservation/create">Pridėti vartotoją</a></li>
                             </ul>
                         </nav>
                     </td>
