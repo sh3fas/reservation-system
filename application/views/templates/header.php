@@ -15,9 +15,6 @@
                     }
            
                    .header table {
-                       border-right: 1px solid black;
-                       border-left: 1px solid black;
-                       border-top: 1px solid black;
                        margin: auto auto;
                     }
 
@@ -59,15 +56,21 @@
                <div class="header">
                 <title>Rezervavimo sistem by K.K.</title>
                 <center><p>Automobilių nuoma</p></center>
-                <table><Tr><td>
-                
-                <nav><ul>
-                    <li><a href="http://localhost/codeigniter/index.php/ordered">Rezervuoti automobiliai</a></li>
-                    <li><a href="http://localhost/codeigniter/index.php/bookcar_controller/create_booking">Rezervuoti</a></li>
-                    <li><a href="http://localhost/codeigniter/index.php/reservation/create">Pridėti vartotoją</a></li>
-                </ul></nav>
-                </td></Tr></table>
+                <table>
+                    <Tr>
+                     <td>
+                         <nav>
+                            <ul>
+                                <li><a href="http://localhost/codeigniter/index.php/ordered">Rezervuoti automobiliai</a></li>
+                                <li><a href="http://localhost/codeigniter/index.php/bookcar_controller/create_booking">Rezervuoti</a></li>
+                                <li><a href="http://localhost/codeigniter/index.php/reservation/create">Pridėti vartotoją</a></li>
+                            </ul>
+                        </nav>
+                    </td>
+                </Tr>
+                </table>
                 </div>
+                <br>
                 <br>
                 <br>
         </head>
